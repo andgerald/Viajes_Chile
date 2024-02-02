@@ -36,7 +36,7 @@
   </head>
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light px-5">
+    <nav class="navbar navbar-expand-lg navbar-light z-2 sticky-top px-5">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
@@ -72,6 +72,53 @@
         </div>
       </div>
     </nav>
+    <!--CAROUSEL-->
+    <header>
+      <div id="carouselExample" class="carousel slide margin">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="llamas en el altiplano"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="puesta de sol moais"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="pinguino"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
     <!--SCRIPT JAVASCRIPT-->
     <script src="/assets/js/index.js"></script>
     <!--SCRIPT DE BOOTSTRAP-->
