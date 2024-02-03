@@ -1,0 +1,9 @@
+body {
+  background: black;
+}
+.card {
+  width: 210px;
+}
+.card-img-top {
+  height: 100px;
+}
