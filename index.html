@@ -63,18 +63,20 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link text-white" aria-current="page" href="#"
+            <a class="nav-link text-white" aria-current="page" href="#inicio"
               >Inicio</a
             >
-            <a class="nav-link text-white mx-md-2" href="#">Quienes Somos</a>
-            <a class="nav-link text-white" href="#">Destacados</a>
-            <a class="nav-link text-white" href="#">Contacto</a>
+            <a class="nav-link text-white mx-md-2" href="#quienesSomos"
+              >Quienes Somos</a
+            >
+            <a class="nav-link text-white" href="#destacados">Destacados</a>
+            <a class="nav-link text-white" href="#contacto">Contacto</a>
           </div>
         </div>
       </div>
     </nav>
     <!--CAROUSEL-->
-    <header>
+    <header id="inicio">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -122,7 +124,7 @@
 
     <main>
       <!--QUIENES SOMOS-->
-      <section class="container px-5 d-none d-md-block">
+      <section class="container px-5 d-none d-md-block" id="quienesSomos">
         <div class="row">
           <h1 class="text-center text-white">¿QUIÉNES SOMOS?</h1>
           <article class="col-4 text-center">
@@ -166,7 +168,7 @@
         </div>
       </section>
       <!--DESTACADOS-->
-      <section class="container px-5">
+      <section class="container px-5" id="destacados">
         <h1 class="text-center text-white">DESTACADOS</h1>
         <div class="row">
           <div class="card col-3 p-0">
@@ -232,7 +234,8 @@
         </div>
       </section>
       <!--CONTACTO-->
-      <section class="container px-5">
+      <section class="container px-5" id="contacto">
+        <h1 class="text-center text-white">CONTACTO</h1>
         <form>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"
